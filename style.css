@@ -3,9 +3,9 @@
     padding:0;
 }
 .webpage{
-    margin-left: 9%;
-    margin-right:9%;
-    font-family: Gabarito,"Poppins", serif;
+    margin-left: 5%;
+    margin-right:5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar{
@@ -54,6 +54,7 @@ img{
  bottom:3px;
  color: white;
  background-color: black;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 .tripimage{
@@ -99,7 +100,7 @@ img{
     display:inline-block;
     position: sticky;
     top:0;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: white;
     
 
@@ -134,7 +135,7 @@ img{
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
-   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
 }
 .banner-image{
@@ -162,6 +163,10 @@ img{
     padding: 10px;
 }
 
+.banner-image h1{
+    margin:10px;
+    font-size: 38px;
+}
 .Recommanded{
     padding: 20px;
     display: flex;
@@ -252,7 +257,15 @@ z-index: 2;
 .box{
     padding: 20px;
     text-align: center;
+  
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition:1s;
+    box
     
+}
+.box:hover{
+    transform:scale(1.1);
+    z-index:2;
 }
 /*tamilnadu packages*/
 .tamilnadu{
@@ -263,7 +276,7 @@ z-index: 2;
     display:flex;
     justify-content:space-between;
     margin-top: 10px;
-    flex-wrap: wrap;
+    
     
     
 }
@@ -304,6 +317,10 @@ z-index: 2;
     text-align: center;
 
 
+}
+.moreplaces__img p{
+    margin:10px;
+    font-family: poppins, serif;
 }
 .ridebanner{
     display: flex;
@@ -390,19 +407,37 @@ border-radius: 10px;
 .footer-upper p{
     padding: 5px;
 }
+.footer-lower__s1{
+    display: flex;
+
+   
+}
 
 .footer-lower img{
-    height:30px;
-    width:30px;
+    height:50px;
+    width:50px;
+    margin:5px;
+    margin-left:30px;
+    
+}
+.fl{
+    display: flex;
+}
+.option{
+    margin-right: 80px;
 }
 .footer-lower__s2{
     display: flex;
     margin:10px;
     gap:10px;
+    justify-content: space-between;
 
 }
-.footer-lower__s2 p{
-    font-size: small;
+.footer-lower-s2__b2 i{
+    padding: 10px;
+}
+.footer-lower-s2__b1{
+    width:700px;
 }
 
 .footer-lower a{
@@ -430,7 +465,7 @@ border-radius: 10px;
 .last-banner__img  img{
 
     width:60%;
-    height:800px;
+    height:700px;
    
     
 }
