@@ -1,0 +1,454 @@
+*{
+    margin:0;
+    padding:0;
+}
+.webpage{
+    margin-left: 9%;
+    margin-right:9%;
+    font-family: Gabarito,"Poppins", serif;
+}
+
+.navbar{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    position:sticky;
+    top:0;
+    background-color: white;
+    width:100%;
+    cursor:pointer;
+
+}
+img{
+    height:20px;
+    width:20px;
+}
+
+.navbar-s2{
+    display: flex;
+    gap:45px;
+    cursor: pointer;
+}
+.navbar-s3{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
+.nav-earth{
+    width:70px;
+    height:40px;
+    border:1px black ;
+    border-radius: 30px; 
+     
+}
+.navbar2-s3__signin{
+    border-radius: 30px;
+    padding: 10px;
+ border: 1px solid black;
+ font-weight: 600;
+ height:38px;
+ width:80px;
+ cursor: pointer;
+ bottom:3px;
+ color: white;
+ background-color: black;
+
+}
+.tripimage{
+    height:40px;
+    width:200px;
+}
+.section-one{
+    font-weight: 600;
+    text-align: center;
+    margin-top:30px;
+    font-size:27px;
+    flex-wrap: wrap;
+
+}
+.section-two{
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
+
+.section-three{
+    margin-top:20px;
+    height: 28px;
+    min-width: 50%;
+    width:80%;
+    border: 2px rgb(223, 220, 220) solid;
+    border-radius: 30px;
+    padding:15px;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content:space-between;
+    gap:20px;
+    position:relative;
+    display:inline-block;
+    position: sticky;
+    top:0;
+    
+    background-color: white;
+    
+
+
+}
+
+
+.section-three input{
+   border:none;
+   width:55%;
+   gap:10px; 
+   font-size: 16px;
+   
+
+}
+.section-three input:focus{
+    outline:none;
+}
+.section-three__search{
+    background-color: rgb(50, 198, 119);
+    border: 1px rgb(154, 207, 190) solid;
+    border-radius: 50px;
+    width:120px;
+   
+    height:48px;
+    padding:10px;
+    margin:2px;
+    position:absolute;
+    right:2px;
+    bottom:1px;
+    top:2.5px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+   
+    
+}
+.banner-image{
+    position: relative;
+}
+.banner-image__des{
+    position: absolute;
+    left:50px;
+    top:80px;
+    color: aliceblue;
+    padding:10px;
+    margin: 20px;
+}
+.banner-image img{
+    width:100%;
+    margin:15px;
+    height:450px;
+    margin-top: 35px;
+}
+
+.banner-image__des   button{
+  margin:20px;
+  width:70px;
+  
+    padding: 10px;
+}
+
+.Recommanded{
+    padding: 20px;
+    display: flex;
+   
+    width:100%;
+    margin: 20px;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgb(230, 225, 225);
+    border-radius: 10px;
+}
+.Recommanded img{
+    height:140px;
+    width:140px;
+    margin: 10px;
+    
+}
+
+.readnow{
+    border-radius: 30px;
+    border:1px solid black;
+
+    padding: 8px;
+    justify-content: end;
+    height:30px;
+    width:100px;
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+.Recommanded-para{
+    padding: 10px;
+    position: absolute;
+    top:20px;
+    left:190px;
+    
+}
+.choices{
+    padding: 20px;
+    margin:15px;
+}
+.choices p{
+    padding:10px;
+    font-size: 18px;
+}
+.choice-images{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+.choice-images boxs{
+    width:200px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition:1s;
+}
+.boxs:hover{
+    transform:scale(1.2);
+z-index: 2;
+}
+.choice-images img{
+    width:220px;
+    height:220px;
+    border-radius: 10px;
+}
+.Top-choices{
+    margin: 10px;
+    padding: 10px;
+
+}
+.Top-choices__img{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.Top-choices__img img{
+    width:310px;
+    height:300px;
+    border-radius: 20px;
+
+
+}
+.box{
+    padding: 20px;
+    text-align: center;
+    
+}
+/*tamilnadu packages*/
+.tamilnadu{
+    padding: 8px;
+    margin: 5px;
+}
+.tamilnadu-images{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    
+    
+}
+.tamilnadu-images img{
+    width:220px;
+    height:220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.tbox{
+    padding: 20px;
+    
+}
+.tamilnadu__des{
+    padding: 20px;
+}
+.tamilnadu__des p{
+    margin-top: 15px;
+}
+.moreplaces__img{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.moreplaces__img img{
+    width:310px;
+    height:240px;
+    border-radius: 20px;
+}
+.more{
+    padding: 30px;
+    width:280px;
+    text-align: center;
+
+
+}
+.ridebanner{
+    display: flex;
+    height:550px;
+    width:100%;
+    background-color: rgb(216, 212, 212);
+border-radius: 10px;
+
+}
+.ridebanner img{
+    height:550px;
+    width:450px;
+    border-radius: 10px;
+
+}
+.ridebanner__des{
+    text-align: center;
+    padding: 40px;
+   
+    margin-top: 15%;
+    font-size:larger;
+    
+}
+.ridebanner__des button{
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    height:40px;
+    width:120px;
+    cursor: pointer;
+    
+}
+.ridebanner__des img{
+    width:30px;
+    height:30px;
+    
+    
+   
+}
+.ridebanner p{
+    padding: 20px;
+}
+.ridebanner button:hover{
+    color: rgb(12, 12, 12);
+    background-color: rgb(113, 189, 113);
+    
+}
+.homerental{
+    margin-top: 40px;
+    padding: 10px;
+}
+.homerental__near{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-wrap: wrap;
+    
+}
+.homerental__near img{
+    width:240px;
+    height:190px;
+    border-radius: 20px;
+    
+
+}
+.homerental__near p {
+    width:200px;
+}
+.footer{
+    background-color: rgb(216, 213, 213);
+    width:100%;
+}
+.footer-upper{
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+}
+.footer-upper div{
+    margin: 20px;
+
+}
+.footer-upper p{
+    padding: 5px;
+}
+
+.footer-lower img{
+    height:30px;
+    width:30px;
+}
+.footer-lower__s2{
+    display: flex;
+    margin:10px;
+    gap:10px;
+
+}
+.footer-lower__s2 p{
+    font-size: small;
+}
+
+.footer-lower a{
+    padding: 10px;
+ 
+}
+.footer-lower__s1{
+    display: flex;
+    justify-content: space-between;
+}
+.last-banner{
+    background-color: rgb(223, 222, 222);
+    margin-top: 50px;
+    margin-bottom: 40px;
+   position: relative;
+}
+.last-banner__badge img{
+    width:80px;
+    height:80px;
+    margin: 10px;
+    position: absolute;
+    top:40%;
+    right:24%;
+}
+.last-banner__img  img{
+
+    width:60%;
+    height:800px;
+   
+    
+}
+.last-banner__des{
+    position: absolute;
+    right:40px;
+    text-align: center;
+    top:60%;
+}
+.last-banner__des h4{
+    padding: 25px;
+    font-size:28px;
+    margin:5px;
+}
+.last-banner__des button{
+    width:130px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    margin:20px;
+    border-radius: 20px;
+}
